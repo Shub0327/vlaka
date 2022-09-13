@@ -78,8 +78,18 @@ p {
 
 ul,
 li {
+    color: #FFFFFF;
+    font-size: 16rem;
+     font-family: 'Dosis', sans-serif;
+    list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    align-items: middle;
+    place-items: center;
+    height: 100vh;
 }
 
 fieldset {
