@@ -129,11 +129,24 @@ fieldset {
 }
 
 .section-title h2 {
-    font-size: 12px;
+    font-size: 30px;
     margin-bottom: 10px;
     font-weight: 200;
     margin-top: 0;
     color: #f1f1f1;
+    margin-top: -20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-left: 70px;
+    position: relative;
+}
+
+.section-title-mission h {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 200;
+    margin-top: 0;
+    color: #fff;
     margin-top: -20px;
     text-transform: uppercase;
     letter-spacing: 5px;
