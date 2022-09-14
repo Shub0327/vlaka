@@ -27,6 +27,20 @@ Version      : 1.0
 * ----------------------------------------------------------------------------------------
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.bg-1{
+ 
+  width:100%;
+  height:100vh;
+}
+
+
 body {
     font-size: 16px;
     font-weight: 300;
@@ -457,6 +471,26 @@ fieldset {
     color: #fff;
 }
 
+.header-text1 h2 {
+    
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 30px;
+    color: #000000;
+    opacity: .9;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+.header-text1 p {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.2;
+    opacity: .20;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    color: #000000;
+}
 
 .header-top-area {
     position: fixed;
@@ -697,6 +731,20 @@ fieldset {
     color: #aeaeae;
 }
 
+/*.about-text1 h2 {
+
+    font-size: 60px;
+    margin-bottom: 50px;
+    font-weight: 300;
+    margin-top: 0;
+    color: #000000;
+    line-height: 34px;
+}
+
+.about-text1 p {
+    color: #000000;
+}
+*/
 .about-text a {
     display: inline-block;
     color: #aeaeae;
